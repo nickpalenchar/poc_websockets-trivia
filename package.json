@@ -1,0 +1,14 @@
+{
+  "name": "poc_websockets-trivia",
+  "version": "1.0.0",
+  "description": "POC showing websockets in a jackbox-like format",
+  "type": "module",
+  "main": "staticServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
