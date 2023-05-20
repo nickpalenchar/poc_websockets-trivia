@@ -1,14 +1,20 @@
 <html>
   <title>Trivia!</title>
+  <head>
+        <script>
+console.log('hello');
+
+        </script>
+  </head>
   <body>
     <h1>Welcome to trivia</h1>
     <p>This is what phones will see</p>
-    <form>
+    <form action="/game" method="get">
       <label>Room Code:</label>
-      <input type="text" />
+      <input type="text" maxlength="4"/>
       <br />
       <label>Name:</label>
-      <input type="text"></input>
+      <input type="text" maxlength="9"></input>
       <br />
       <br />
       <button>Join</button>
